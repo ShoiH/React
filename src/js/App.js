@@ -1,3 +1,10 @@
 import '../css/style.scss';
 
-document.write("Hello World");
+let text = "Hello World";
+
+document.write(text);
+
+//ES2016test
+let a = 2 **3;
+
+document.write(a);
