@@ -86,14 +86,26 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/css/style.scss":
+/*!****************************!*\
+  !*** ./src/css/style.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/css/style.scss?");
+
+/***/ }),
+
 /***/ "./src/js/APP.js":
 /*!***********************!*\
   !*** ./src/js/APP.js ***!
   \***********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: Plugin/Preset files are not allowed to export objects, only functions. In /Users/shoi/Desktop/tb_journey/node_modules/babel-preset-es2016/lib/index.js\\n    at createDescriptor (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:178:11)\\n    at items.map (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:109:50)\\n    at Array.map (<anonymous>)\\n    at createDescriptors (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:109:29)\\n    at createPresetDescriptors (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:101:10)\\n    at passPerPreset (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:58:96)\\n    at cachedFunction (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/caching.js:33:19)\\n    at presets.presets (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-descriptors.js:29:84)\\n    at mergeChainOpts (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-chain.js:315:26)\\n    at /Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-chain.js:278:7\\n    at buildRootChain (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/config-chain.js:68:29)\\n    at loadPrivatePartialConfig (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/partial.js:85:55)\\n    at Object.loadPartialConfig (/Users/shoi/Desktop/tb_journey/node_modules/@babel/core/lib/config/partial.js:110:18)\\n    at Object.<anonymous> (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:140:26)\\n    at Generator.next (<anonymous>)\\n    at asyncGeneratorStep (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:3:103)\\n    at _next (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:5:194)\\n    at /Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:5:364\\n    at new Promise (<anonymous>)\\n    at Object.<anonymous> (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:5:97)\\n    at Object._loader (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:220:18)\\n    at Object.loader (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:56:18)\\n    at Object.<anonymous> (/Users/shoi/Desktop/tb_journey/node_modules/babel-loader/lib/index.js:51:12)\");\n\n//# sourceURL=webpack:///./src/js/APP.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.scss */ \"./src/css/style.scss\");\n/* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n\ndocument.write(\"It works.\");\n\n//# sourceURL=webpack:///./src/js/APP.js?");
 
 /***/ })
 

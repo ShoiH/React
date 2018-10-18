@@ -8,10 +8,9 @@ module.exports = {
   entry: './src/js/APP.js',
 
   output: {
-    path: path.resolve(__dirname, 'dist/js/'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist/js/')
   },
-
   module: {
     rules: [
       {
@@ -33,9 +32,12 @@ module.exports = {
             loader: 'css-loader',
             options: {
               url: false,
-              minimize: true,
+              minimize: true
             }
           },
+          {
+            loader : 'sass-loader'
+          }
         ]
       },
     ]

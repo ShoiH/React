@@ -1,3 +1,12 @@
-body {
-    background-color: black;
+@charset "UTF-8";
+
+$bg-color: yellow;
+$font-color: black;
+
+html {
+
+  body {
+    color: rgba( $font-color, 1 );
+    background: rgba( $bg-color, 1 );
+  }
 }
