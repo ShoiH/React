@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
 
@@ -18,6 +19,10 @@ module.exports = {
         $: "jquery",
         'window.jQuery': 'jquery',
         Popper: ['popper.js', 'default'],
+    }),
+    new HtmlWebpackPlugin({
+      teamplate: "./index.html",
+      filename: 'index.html'
     })
   ],
   module: {
@@ -35,14 +40,15 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         exclude: /node_modules/,
+        include: [path.join(__dirname, "./src/css/"), path.join(__dirname, "./node_modules/react-datepicker/dist/")],
         use: [
           MiniCssExtractPlugin.loader,
           {
             loader: 'css-loader',
-            options: {
+/*             options: {
               url: false,
-              minimize: true
-            }
+              minimize: true,
+            } */
           },
           {
             loader : 'sass-loader'
